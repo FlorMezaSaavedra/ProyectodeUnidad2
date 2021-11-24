@@ -1,6 +1,7 @@
-//Cifrado 
-function cifrar (mensaje,desp){
+//Descifrar
+function descifrar (mensaje,desp){
     let nuevoMensaje = "";
+    desp *= -1;
     for(let i = 0; i < mensaje.length; i++){
         let numASCI = mensaje.charCodeAt(i);
         if(numASCI>64 && numASCI<91){
@@ -13,4 +14,5 @@ function cifrar (mensaje,desp){
     }
     return nuevoMensaje;
 }
-export{cifrar};
+
+export {descifrar};
