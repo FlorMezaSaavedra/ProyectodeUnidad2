@@ -69,5 +69,3 @@ document.getElementById("Descifrar").addEventListener("click",function(){
 
     
 })
-
-
