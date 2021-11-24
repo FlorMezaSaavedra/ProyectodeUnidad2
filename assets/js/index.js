@@ -36,6 +36,3 @@ document.getElementById("Descifrar").addEventListener("click",function(){
     
 });
 
-document.getElementById("Cifrar").addEventListener("click",function(){
-    console.log("holaaaaa")
-})
